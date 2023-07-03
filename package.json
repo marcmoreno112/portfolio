@@ -8,10 +8,14 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "test": "vitest run",
+    "test:dev": "vitest",
+    "test:coverage": "vitest run --coverage",
     "prepare": "husky install"
   },
   "dependencies": {
-    "astro": "^2.7.2"
+    "astro": "^2.7.2",
+    "vitest": "^0.32.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
